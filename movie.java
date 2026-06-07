@@ -4,7 +4,7 @@
  * Date: June 7, 2026
  */
 
-puublic class Movie {
+public class Movie {
     int duration;
     Strig title;
     int year;
@@ -12,8 +12,20 @@ puublic class Movie {
     public Movie(int duration, String title, int year) {
         this.duration = duration;
         this.title = title;
-        this.year = year;
-
-        
+        this.year = year;  
     }
+
+    public int getDuration() {
+        return this.duration;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+
 }
