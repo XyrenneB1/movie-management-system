@@ -27,5 +27,10 @@ public class Movie {
         return this.year;
     }
 
+    @Override
+    public String toString() {
+        return this.duration + "t\t" + this.year + "\t" + this.title;
+    }
+
 
 }
