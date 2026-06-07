@@ -6,7 +6,7 @@
 
 public class Movie {
     int duration;
-    Strig title;
+    String title;
     int year;
 
     public Movie(int duration, String title, int year) {
