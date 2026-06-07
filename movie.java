@@ -29,7 +29,7 @@ public class Movie {
 
     @Override
     public String toString() {
-        return this.duration + "t\t" + this.year + "\t" + this.title;
+        return duration + "," + title + "," + year;
     }
 
 
